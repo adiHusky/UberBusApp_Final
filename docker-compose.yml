@@ -20,7 +20,7 @@ services:
   fe:
     stdin_open: true
     build:
-      context: ./fe
+      context: ./frontend
       dockerfile: Dockerfile
     ports:
       - 3000:80
