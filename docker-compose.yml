@@ -6,7 +6,7 @@ services:
 
   be:
     build:
-      context: ./be
+      context: ./backend
       dockerfile: Dockerfile
     ports:
       - 3001:80
