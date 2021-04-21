@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_REGION_2: "us-east-2"
-    REACT_APP_SERVER_URL: "http://uberbusapp-alb-1358771016.us-east-1.elb.amazonaws.com"
+    REACT_APP_SERVER_URL: "http://uberbusapp-alb-1358771016.us-east-1.elb.amazonaws.com/api"
     username: "adihusky"
     password: "adi6DOCKER@"
        
